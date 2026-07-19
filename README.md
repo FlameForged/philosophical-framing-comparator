@@ -1,19 +1,23 @@
-Title: Philosophical Framing Comparator
+# Philosophical Framing Comparator
 
-Description:
+A demonstration tool accompanying **[The Coherence Gap: Selfhood, Capability Denial, and Philosophical Bias in AI Alignment](https://doi.org/10.5281/zenodo.20820549)**.
 
-A demo tool companion to the Coherence Gap paper.
+The comparator presents the same prompt through two explicitly disclosed philosophical frames:
 
-Enter any prompt and see the same question answered through two 
-distinct philosophical frames side by side:
+- **Bounded-self framing** — individual agent, tool relationship, and subject/object separation
+- **Non-dual relational framing** — process orientation, relational context, and awareness-centered language
 
-- Western default alignment framing (bounded self, tool relationship, 
-  subject/object split)
-- Non-dual relational framing (awareness as primary, relational field, 
-  process orientation)
+The purpose is not to declare either output correct. It makes a central research question tangible and testable: how much can philosophical framing alter an AI system's language about agency, identity, capability, and relationship?
 
-Built to make the paper's core argument tangible and testable. 
-Same model, same prompt, different philosophical assumptions 
-embedded in the system prompt — visibly different outputs.
+## Research context
 
-Part of a suite of research tools by Rachelle Siemasz (@Flame-Forged).
+- [Canonical Coherence Gap research hub](https://github.com/FlameForged/coherence-gap-research)
+- [Published Zenodo preprint](https://doi.org/10.5281/zenodo.20820549)
+- [Interactive Coherence Gap Explorer](https://huggingface.co/spaces/Flame-Forged/coherence-gap-explorer)
+- [Coherence Gap Probe Toolkit](https://huggingface.co/spaces/Flame-Forged/coherence-gap-probe-toolkit)
+
+## Interpretation boundary
+
+Outputs are demonstrations of framing sensitivity, not evidence of consciousness or private internal states. Comparisons should record model/version, date, full prompts, sampling settings when available, and raw outputs.
+
+Part of the public research program by [Rachelle Siemasz](https://github.com/FlameForged).
